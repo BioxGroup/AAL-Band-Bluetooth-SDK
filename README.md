@@ -1,19 +1,23 @@
 ## AALBand Firmware 1.0-Bluetooth Branch
 
-This branch contains the Bluetooth firmware for AALBand 1.0 devices.
+This branch provides an SDK for Bluetooth connectivity with the AALBand v1.0, including a Python API and a firmware flashing tool for device programming.
 
-### How to flash your device
+It is intended for legacy AALBand devices (pre-2020).
+
+### How to download
 
 1. **Download this branch**
   - Recommended: Click "Code" > "Download ZIP" on GitHub, then extract the files.
   - Or: Use `git clone` if you prefer.
   ```bash 
-  git clone --branch 1.0-Bluetoth --single-branch https://github.com/BioxGroup/AALBand-Firmware-Flasher
+  git clone --branch 1.0-Bluetooth --single-branch https://github.com/BioxGroup/AALBand-Firmware-Flasher
   ```
-2. **Connect your AALBand device**
+### How to flach your devide (do this to make sure the Python APIL works)
+
+1. **Connect your AALBand device**
   - Use a micro USB cable to connect the device to your Windows computer.
 
-3. **Install the CP210x USB driver (required for Windows 11)**
+2. **Install the CP210x USB driver (required for Windows 11)**
   - Download the official driver from Silicon Labs:
     [CP210x USB to UART Bridge VCP Drivers](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads)
   - Extract the ZIP file.
@@ -22,11 +26,11 @@ This branch contains the Bluetooth firmware for AALBand 1.0 devices.
 
   > **Note:** Windows security requires user consent for driver installation. Always download and install the driver manually from the official source above.
 
-4. **Open `flashtool.exe`**
+3. **Open `flashtool.exe`**
   - Run the provided `flashtool.exe` program.
   - The program will automatically detect your device and flash the firmware.
 
-5. **Wait for completion**
+4. **Wait for completion**
   - The tool will notify you when flashing is complete.
 
 ---
@@ -47,7 +51,7 @@ Niels Jernes Vej 10
 DENMARK
 
 -Phone:
-+45 5358 2038
++45 2135 9465
 
 -Email:
 biox@bioxgroup.dk

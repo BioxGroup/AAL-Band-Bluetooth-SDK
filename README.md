@@ -10,7 +10,7 @@ It is intended for legacy AALBand devices (pre-2020).
   - Recommended: Click "Code" > "Download ZIP" on GitHub, then extract the files.
   - Or: Use `git clone` if you prefer.
   ```bash 
-  git clone --branch 1.0-Bluetooth --single-branch https://github.com/BioxGroup/AALBand-Firmware-Flasher
+  git clone --branch 1.0-Bluetooth --single-branch https://github.com/BioxGroup/AAL-Band-Bluetooth-SDK
   ```
 ### How to flach your devide (do this to make sure the Python APIL works)
 

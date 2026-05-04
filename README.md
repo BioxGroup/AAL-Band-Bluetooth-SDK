@@ -1,18 +1,16 @@
-## AALBand Firmware 1.0-Bluetooth Branch
+## AALBand SDK 2.0-Bluetooth 
 
-This branch provides an SDK for Bluetooth connectivity with the AALBand v1.0, including a Python API and a firmware flashing tool for device programming.
-
-It is intended for legacy AALBand devices (pre-2020).
+This branch provides an SDK for Bluetooth connectivity with the AALBand v2.0, including a Python API and a firmware flashing tool for device programming.
 
 ### How to download
 
-1. **Download this branch**
+1. **Download this Release**
   - Recommended: Click "Code" > "Download ZIP" on GitHub, then extract the files.
   - Or: Use `git clone` if you prefer.
   ```bash 
-  git clone --branch 1.0-Bluetooth --single-branch https://github.com/BioxGroup/AAL-Band-Bluetooth-SDK
+  git clone --branch 2.0 --single-branch https://github.com/BioxGroup/AAL-Band-Bluetooth-SDK
   ```
-### How to flach your devide (do this to make sure the Python APIL works)
+### How to flach your device (do this to make sure the Python API works)
 
 1. **Connect your AALBand device**
   - Use a micro USB cable to connect the device to your Windows computer.
